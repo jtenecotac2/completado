@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.mlkit:image-labeling:17.0.7")
     implementation("com.google.android.gms:play-services-mlkit-text-recognition:18.0.2")
     implementation("com.google.mlkit:face-detection:16.1.5")
     implementation("androidx.appcompat:appcompat:1.6.1")
